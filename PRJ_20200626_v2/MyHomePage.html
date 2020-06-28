@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-3.5.1.js"></script>
+    <script src="Scripts/callGETfn.js"></script>
+    <script type="text/javascript">
+            //$(document).ready(function () {
+            //    var ulTasks = $('#ulTasks');
+
+            //    $('#btn').click(function () {
+            //        $.ajax({
+            //            type: 'GET',
+            //            url: 'api/TBL_TRN_TASKS',
+            //            dataType: 'json',
+            //            success: function (data) {
+            //                ulTasks.empty();
+            //                $.each(data, function (index, val) {
+            //                    var myTask = val.TASK_NAME + ' ' + val.TASK_DESCRIPTION
+            //                    ulTasks.append('<li>' + myTask + '</li>')
+            //                });
+            //            }
+
+            //        });
+            //    });
+            //    $('#btnClear').click(function (){
+            //        ulTasks.empty();
+            //    });
+
+            //});
+    </script>
+
+    <script src="jsPostFn.js"></script>
+    <title></title>
+</head>
+<body>
+    <input id="btn" type="button" value="Get All Tasks" />
+    <input id="btnClear" type="button" value="Clear" />
+    <ul id="ulTasks"></ul>
+    <a href=SecondHTMLPage.html>ByeBye</a>
+
+    <div>
+        <p> this is the start of a paragraph </p><br />
+        <input id="btnUser" type="button" value="Get All Users" />
+        <input id="btnClearUser" type="button" value="Clear" />
+        <ul id="ulUser"></ul>
+    </div>
+    <div>
+        <p> starting log in table now</p>
+    </div>
+    <table class="table table-bordered">
+        <tbody></tbody>
+        <tr>
+            <td>UserName</td>
+            <td>
+                <input type="text" id="txtUserName" placeholder="username" />
+            </td>
+        </tr>
+        <tr>
+            <td>UserAddress</td>
+            <td>
+                <input type="text" id="txtUserAddress" placeholder="username" />
+            </td>
+        </tr>
+        <tr>
+            <td>UserPINCODE</td>
+            <td>
+                <input type="text" id="txtUserPincode" placeholder="username" />
+            </td>
+        </tr>
+        <tr class="success">
+            <td colspan="2">
+                <input id="btnRegister" class="btn btn-success" type="button" value="Register"/>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRJ_20200626_v2", "PRJ_20200626_v2\PRJ_20200626_v2.csproj", "{F1C73260-7B7D-4940-A515-9B6E44E7482F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBL_TRN_TASKS_CLASSLIBRARY", "TBL_TRN_TASKS_CLASSLIBRARY\TBL_TRN_TASKS_CLASSLIBRARY.csproj", "{86E8492E-9BB5-46C6-B551-08D9EE8AA255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1C73260-7B7D-4940-A515-9B6E44E7482F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C73260-7B7D-4940-A515-9B6E44E7482F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C73260-7B7D-4940-A515-9B6E44E7482F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C73260-7B7D-4940-A515-9B6E44E7482F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E8492E-9BB5-46C6-B551-08D9EE8AA255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E8492E-9BB5-46C6-B551-08D9EE8AA255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E8492E-9BB5-46C6-B551-08D9EE8AA255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E8492E-9BB5-46C6-B551-08D9EE8AA255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4183346-136E-4AE9-A88E-AF8960F3F828}
+	EndGlobalSection
+EndGlobal
